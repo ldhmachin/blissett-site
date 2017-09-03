@@ -74,7 +74,7 @@ div.content-wrapper {
   background-color: white;
   justify-content: center;
   grid-template-columns: 1fr;
-  grid-gap: 128px;
+  grid-gap: 64px;
 }
 
 div.art-grid {
@@ -82,9 +82,8 @@ div.art-grid {
   width: 75vw;
   margin-left: auto;
   margin-right: auto;
-  grid-auto-rows: 25vw;
-  grid-template-columns: 1fr 1fr 1fr;
-  grid-gap: 5vw;
+  grid-template-columns: 1fr;
+  grid-row-gap: 100px;
 }
 
 div.art-cell {
@@ -98,6 +97,28 @@ div.art-cell {
 img.art-img {
   width: 100%;
   height: auto;
-
   overflow-x: hidden;
+}
+
+@media screen and (min-width: 800px) {
+
+  div.content-wrapper {
+    display: grid;
+    width: 100%;
+    background-color: white;
+    justify-content: center;
+    grid-template-columns: 1fr;
+    grid-gap: 128px;
+  }
+
+  div.art-grid {
+    display: grid;
+    width: 75vw;
+    margin-left: auto;
+    margin-right: auto;
+    grid-auto-rows: 25vw;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 5vw;
+  }
+
 }
