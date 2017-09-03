@@ -108,7 +108,7 @@ img.art-img {
     background-color: white;
     justify-content: center;
     grid-template-columns: 1fr;
-    grid-gap: 128px;
+    grid-gap: 80px;
   }
 
   div.art-grid {
