@@ -116,9 +116,9 @@ img.art-img {
     width: 75vw;
     margin-left: auto;
     margin-right: auto;
-    grid-auto-rows: 25vw;
     grid-template-columns: 1fr 1fr 1fr;
     grid-gap: 5vw;
+    grid-row-gap: 7.5vw;
   }
 
 }
