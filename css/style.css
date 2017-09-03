@@ -3,6 +3,21 @@ body {
   overflow-x: hidden;
 }
 
+p {
+  font-family: "Muli", sans-serif;
+  font-size: 20px;
+  font-weight: normal;
+  color: #444444;
+}
+
+p.quote {
+  font-family: "Muli", sans-serif;
+  font-size: 20px;
+  font-weight: normal;
+  font-style: italic;
+  color: #444444;
+}
+
 h3 {
   font-family: "Montserrat", sans-serif;
   font-size: 20px;
@@ -99,6 +114,11 @@ img.art-img {
   width: 100%;
   height: auto;
   overflow-x: hidden;
+}
+
+div.bio-text {
+  display: flex;
+  margin: 0 10vw;
 }
 
 @media screen and (min-width: 800px) {
