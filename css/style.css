@@ -121,6 +121,12 @@ div.bio-text {
   margin: 0 10vw;
 }
 
+div.contact-text {
+  display: flex;
+  margin: 0 auto;
+  justify-content: center;
+}
+
 @media screen and (min-width: 800px) {
 
   div.content-wrapper {
