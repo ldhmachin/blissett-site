@@ -1,3 +1,6 @@
+@import url(https://fonts.googleapis.com/css?family=Raleway);
+@import url(https://fonts.googleapis.com/css?family=Lato);
+
 body {
   margin: 0;
   overflow-x: hidden;
@@ -18,12 +21,27 @@ p.quote {
   color: #444444;
 }
 
+h2 {
+  font-family: "Raleway";
+  font-size: 24px;
+  font-style: normal;
+  font-weight: lighter;
+  color: #444444;
+}
+
 h3 {
   font-family: "Montserrat", sans-serif;
   font-size: 20px;
   font-weight: normal;
   letter-spacing: 4px;
   color: white;
+}
+
+h4 {
+  font-family: "Muli";
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 300;
 }
 
 ul {
@@ -122,8 +140,18 @@ div.bio-text {
 }
 
 div.contact-text {
-  display: flex;
+  display: grid;
+  width: 60vw;
+  grid-template-columns: 1fr 1fr 1fr;
   margin: 0 auto;
+  justify-content: center;
+}
+
+div#contact-bar {
+  display: flex;
+  width: 100vw;
+  min-height: 50px;
+  background-color: #444444;
   justify-content: center;
 }
 
