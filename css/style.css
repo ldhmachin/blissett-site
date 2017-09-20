@@ -3,6 +3,7 @@
 
 body {
   margin: 0;
+  width: 100vw;
   overflow-x: hidden;
 }
 
@@ -165,6 +166,7 @@ div#contact-bar {
   min-height: 50px;
   background-color: #444444;
   justify-content: center;
+  overflow-x: hidden;
 }
 
 @media screen and (min-width: 800px) {
