@@ -124,14 +124,26 @@ div.art-cell {
   display: flex;
   vertical-align: middle;
   align-items: center;
+  justify-content: center;
   width: 100%;
   height: 100%;
 }
+
+div.large {
+  grid-column: 1/-1;
+  width: 100%;
+}
+
 
 img.art-img {
   width: 100%;
   height: auto;
   overflow-x: hidden;
+}
+
+img.large {
+  width: 100%;
+  height: auto;
 }
 
 div.bio-text {
@@ -171,9 +183,21 @@ div#contact-bar {
     width: 75vw;
     margin-left: auto;
     margin-right: auto;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
     grid-gap: 5vw;
     grid-row-gap: 7.5vw;
+    justify-content: center;
+  }
+
+  div.art-cell {
+    display: flex;
+    width: 100%;
+    height: 100%;
+  }
+
+  img.large {
+    width: 75%;
+    height: auto;
   }
 
 }
